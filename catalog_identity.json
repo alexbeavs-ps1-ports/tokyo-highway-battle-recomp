@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Tokyo Highway Battle",
+    "id": "SLUS-00229",
+    "boot_exe": "SLUS_002.29"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Tokyo Highway Battle (USA).cue",
+    "bin_name": "Tokyo Highway Battle (USA) (Track 1).bin",
+    "track_counts": [
+      8
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 220676400,
+      "md5": "0a39ffb604009219dd7b9d702ea7d8c8",
+      "sha1": "580ab877da6230ace8451943e358521f957094d5",
+      "crc32": "c5539286"
+    },
+    "disc_fp": "cd70f188fab80edb4f84655d70b1154c28679f4e2282d2bc5758a2624fbcc1b7"
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x8003A0F8",
+    "text_size": "0x00050800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 383,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

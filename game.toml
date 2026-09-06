@@ -1,0 +1,44 @@
+
+[game]
+name = "Tokyo Highway Battle"
+id = "SLUS-00229"
+players = 1
+exe = "disc/SLUS_002.29"
+disc = "disc/Tokyo Highway Battle (USA).cue"
+load_address = "0x80010000"
+entry_pc = "0x8003A0F8"
+text_size = "0x00050800"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Tokyo Highway Battle (USA) (Track 1).bin"
+cue_name = "Tokyo Highway Battle (USA).cue"
+boot_exe = "SLUS_002.29"
+known_sizes = [220676400]
+known_md5 = ["0a39ffb604009219dd7b9d702ea7d8c8"]
+known_sha1 = ["580ab877da6230ace8451943e358521f957094d5"]
+known_crc32 = ["c5539286"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Tokyo Highway Battle Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 8
+required_disc_fp = "cd70f188fab80edb4f84655d70b1154c28679f4e2282d2bc5758a2624fbcc1b7"

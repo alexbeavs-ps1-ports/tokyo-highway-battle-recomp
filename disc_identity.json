@@ -1,0 +1,73 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Tokyo Highway Battle (USA).cue",
+      "bin_name": "Tokyo Highway Battle (USA) (Track 1).bin",
+      "size": 220676400,
+      "md5": "0a39ffb604009219dd7b9d702ea7d8c8",
+      "sha1": "580ab877da6230ace8451943e358521f957094d5",
+      "crc32": "c5539286",
+      "track_count": 8,
+      "tracks": [
+        {
+          "name": "Tokyo Highway Battle (USA) (Track 1).bin",
+          "size": "220676400",
+          "crc": "c5539286",
+          "md5": "0a39ffb604009219dd7b9d702ea7d8c8",
+          "sha1": "580ab877da6230ace8451943e358521f957094d5"
+        },
+        {
+          "name": "Tokyo Highway Battle (USA) (Track 2).bin",
+          "size": "65728992",
+          "crc": "65f03949",
+          "md5": "4dc20a01157037848d83e59aebc133e8",
+          "sha1": "9fc7da7eaea4a5b15c5f1a48c8a306890cb85c81"
+        },
+        {
+          "name": "Tokyo Highway Battle (USA) (Track 3).bin",
+          "size": "65808960",
+          "crc": "5e4110e2",
+          "md5": "ae6fd0398278f4ece81c433d8cd34af8",
+          "sha1": "f43ea8c401f488a020bc4884dba26c20e3144740"
+        },
+        {
+          "name": "Tokyo Highway Battle (USA) (Track 4).bin",
+          "size": "64404816",
+          "crc": "1f8e7efc",
+          "md5": "2219045281a5db4f7e9f3970b804e0b8",
+          "sha1": "4a5f9bbc04fd588ab0dfa2183ac88d77948e91ba"
+        },
+        {
+          "name": "Tokyo Highway Battle (USA) (Track 5).bin",
+          "size": "65898336",
+          "crc": "2fd875be",
+          "md5": "ddd9627729c0ac4a4ef66f251cef4c8e",
+          "sha1": "f3ba7921d502e0ab9aebc7d859014a7737bcd1f7"
+        },
+        {
+          "name": "Tokyo Highway Battle (USA) (Track 6).bin",
+          "size": "65870112",
+          "crc": "242b109d",
+          "md5": "35a1d2aeda3b41a737c2b2eac38ceaf0",
+          "sha1": "ceba372c0616652c9c370a5af02673609133d313"
+        },
+        {
+          "name": "Tokyo Highway Battle (USA) (Track 7).bin",
+          "size": "66232320",
+          "crc": "bacc214c",
+          "md5": "de6f417e254b4d2e5607774cad23c379",
+          "sha1": "78b9efc4caa5a44fbd2b9704657eabcaa2deee9f"
+        },
+        {
+          "name": "Tokyo Highway Battle (USA) (Track 8).bin",
+          "size": "10466400",
+          "crc": "e514872d",
+          "md5": "ff0212d98aa59a662e8de8be3a94d499",
+          "sha1": "2e73a6369c44451212a08ed20c5e7fe5586bb29d"
+        }
+      ]
+    }
+  ]
+}
