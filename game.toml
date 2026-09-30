@@ -5,6 +5,8 @@ id = "SLUS-00229"
 players = 1
 exe = "disc/SLUS_002.29"
 disc = "disc/Tokyo Highway Battle (USA).cue"
+discs = ["disc/Tokyo Highway Battle (USA).cue"]
+disc_serials = ["SLUS-00229"]
 load_address = "0x80010000"
 entry_pc = "0x8003A0F8"
 text_size = "0x00050800"
@@ -21,7 +23,7 @@ known_sha1 = ["580ab877da6230ace8451943e358521f957094d5"]
 known_crc32 = ["c5539286"]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
